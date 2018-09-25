@@ -1,0 +1,23 @@
+*** Info for the Breakout game ***
+
+1.  Inspect and run samples/catchtherain (run file CatchTheRainGUI)
+
+2.  Do some research, see https://en.wikipedia.org/wiki/Breakout_(video_game)
+    Try some instance of the game (should be possible to find on the Web)
+    We will make simplest possible variation of the game.
+
+3.  Implement classes Ball, Paddle, Brick and Wall. There should be no redundant code. If so
+    use abstract base classes. To be able to render them they must implement IPositionable.
+
+    TIP: Use upper left cornar for x and y position
+    TIP: Use dx and dy foor speed. If dx = dy = 0 object is idle.
+
+5. Create the model in BreakoutGUI method init();
+
+6. Make something show up on screen (no movement for now).
+
+7. Start trying to move the ball.
+
+8. Add collision detection.
+
+9. Etc. until works.
