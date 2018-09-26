@@ -5,7 +5,7 @@ package exercises.ex2theory;
 
  */
 public class InheritenceAndTypes {
-
+	//test
     public static void main(String[] args) {
         new InheritenceAndTypes().program();
     }
